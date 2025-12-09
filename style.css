@@ -15,6 +15,7 @@ header{
     display: flex;
     justify-content: space-between;
     height: 113px;
+    align-items: centers;
 }
 
 ul.navigation{
@@ -31,3 +32,21 @@ ul.navigation a{
 header img{
     height: 26px;
 }
+
+/* section first */
+
+section.first{
+    height: 600px;
+    background-image: url("./image/Bitmap.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.first h1{
+    font-size: 72px;
+    font-weight: 800;
+    width: 493px;
+    color: white;
+    font-family: "Fraunces", serif;
+}
+
